@@ -1,0 +1,25 @@
+{
+  "name": "async-await-node-example",
+  "version": "1.0.0",
+  "description": "A sample repository containing async await examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "es7",
+    "async-await",
+    "nodejs"
+  ],
+  "repository": {
+    "url": "https://github.com/AhsanAyaz/async-await-node-example.git"
+  },
+  "author": "Ahsan Ayaz <ahsan.ubitian@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^15.2.7",
+    "dotenv": "^5.0.1"
+  }
+}

@@ -18,7 +18,7 @@ octokit.authenticate({
  */
 function getStarGazers() {
     const owner = 'koderlabs';
-    const repo = 'ngx-device-detectordd';
+    const repo = 'ngx-device-detector';
     const per_page = 100;
     const page = 0;
     return octokit.activity.getStargazersForRepo({owner, repo, per_page, page});
@@ -72,5 +72,5 @@ function processResponse(response) {
 }
 
 // startWPromise();
-// startWAwait();
+startWAwait();
 console.log('execution started. life goes on');
